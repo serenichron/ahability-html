@@ -4,10 +4,12 @@ Two hand-coded landing pages for Ahability, a Romanian clinical psychology pract
 
 | File | Page |
 | --- | --- |
-| `index.html` | Parenting programme. A reproduction of the client's Thrive Architect page at ahability.ro/landing-page-v2. |
+| `parenting.html` | Parenting programme. A reproduction of the client's Thrive Architect page at ahability.ro/landing-page-v2. |
 | `sedinte-individuale.html` | Individual online sessions for adults. Written from a brief, not a reproduction. |
 
-Open either file in a browser. There is no build step.
+`index.html` is a small hub page linking to the two of them.
+
+Open any file in a browser. There is no build step.
 
 ## Stylesheets
 
