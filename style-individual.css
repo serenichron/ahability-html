@@ -1,0 +1,118 @@
+/* =========================================================
+   Ahability — pagina de ședințe individuale
+   Adăugiri peste style.css. Nu suprascrie nimic din pagina
+   de parenting: toate selectoarele de aici sunt clase noi.
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   BLOC DE TEXT CENTRAT
+   --------------------------------------------------------- */
+.prose-block{
+  max-width: 898px;
+  margin: 0 auto;
+}
+.prose-block .body-text{ margin-bottom: 26px; }
+.prose-block .body-text:last-child{ margin-bottom: 0; }
+
+.pull-line{
+  font-size: 22px;
+  line-height: 35.2px;
+  color: var(--teal-price);
+  font-weight: 600;
+  border-left: 3px solid var(--orange);
+  padding-left: 20px;
+  margin-top: 34px;
+}
+
+/* ---------------------------------------------------------
+   CARD DE NOTĂ (supervizare)
+   --------------------------------------------------------- */
+.note-card{
+  background: var(--mint);
+  border: 1px solid var(--teal-soft-border);
+  box-shadow: 6px 6px 0 0 var(--teal-shadow-30);
+  padding: 30px 40px;
+  margin: 34px 0;
+}
+.note-title{
+  font-family: var(--f-body);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.note-text{
+  font-size: 19px;
+  line-height: 30.4px;
+  color: var(--ink);
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------
+   PROGRAMARE — cardul fără formular de plată
+   --------------------------------------------------------- */
+.booking-lead{
+  max-width: 898px;
+  margin: 0 auto;
+}
+.booking-card{ margin-top: 44px; }
+/* titlurile din card nu se capitalizeaza, ca in romana arata gresit */
+.booking-card .pricing-title,
+.booking-card .pricing-form-title{ text-transform: none; }
+.booking-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.booking-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.booking-note{
+  font-family: var(--f-fig);
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--ink-muted);
+  margin: 0 0 28px;
+}
+.btn-booking{
+  align-self: center;
+  text-align: center;
+}
+.booking-gdpr{
+  font-family: var(--f-fig);
+  font-size: 13px;
+  line-height: 19.5px;
+  color: var(--ink-muted);
+  margin: 24px 0 0;
+}
+.booking-gdpr a{ color: var(--teal); text-decoration: none; }
+.booking-gdpr a:hover{ color: var(--teal-price); text-decoration: underline; }
+
+.price-unit{
+  font-family: var(--f-fig);
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--ink-muted);
+}
+
+@media (max-width: 991px){
+  .booking-grid{ grid-template-columns: 1fr; }
+  .booking-right{ text-align: center; }
+}
+
+/* ---------------------------------------------------------
+   CTA FINAL
+   --------------------------------------------------------- */
+.closing-cta{ margin-top: 18px; }
+
+/* ---------------------------------------------------------
+   Pagina de parenting reproduce un decalaj de 6px al ramelor,
+   care produce scroll orizontal intre 1024 si 1200.
+   Pagina noua nu il mosteneste.
+   --------------------------------------------------------- */
+@media (min-width: 1024px){
+  .media-frame{ margin-left: 0; }
+}

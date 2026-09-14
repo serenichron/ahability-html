@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahability &ndash; Landing page v2</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg site-navbar sticky-top">
+  <div class="container">
+    <span class="navbar-brand logo">Aha<span>bility</span></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Meniu">
+      <span class="toggler-box"><i class="bi bi-list"></i><i class="bi bi-x-lg"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#despre">Despre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programul">Programul</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cum-functioneaza">Cum func&#539;ioneaz&#259;</a></li>
+        <li class="nav-item"><a class="nav-link" href="#rezultate">Rezultate</a></li>
+        <li class="nav-item"><a class="nav-link" href="#intrebari">&Icirc;ntreb&#259;ri</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ghid">Ghid</a></li>
+        <li class="nav-item nav-item-cta"><a class="nav-link" href="#pret">&Icirc;ncepe acum</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= 0 · HERO ================= -->
+<header class="sec sec-0 section-gradient-photo" id="hero" style="--bg-photo:url(images/hero-bg-texture.png)">
+  <div class="container">
+    <div class="g-row g-hero">
+      <div class="hero-img-col">
+        <div class="frame-wrap">
+          <img src="images/hero.png" alt="O mam&#259; &#537;i fiul ei z&acirc;mbind &icirc;mpreun&#259;" class="frame-image" loading="lazy">
+        </div>
+      </div>
+      <div class="hero-text-col">
+        <p class="eyebrow eyebrow-light">Pentru p&#259;rin&#539;ii care simt c&#259; &bdquo;nimic nu func&#539;ioneaz&#259;&quot;</p>
+        <h1 class="hero-title">Schimb&#259; dinamica &#537;i adu mai mult&#259; lini&#537;te &icirc;n rela&#539;ia cu copilul t&#259;u!</h1>
+        <div class="hero-img-inline">
+          <div class="frame-wrap">
+            <img src="images/hero.png" alt="" class="frame-image" loading="lazy">
+          </div>
+        </div>
+        <p class="hero-lead">Te ajut s&#259; &icirc;mbun&#259;t&#259;&#539;e&#537;ti rela&#539;ia p&#259;rinte-copil prin interven&#539;ii personalizate, clare &#537;i eficiente, f&#259;r&#259; &#539;ipete sau vinov&#259;&#539;ie.</p>
+        <div class="hero-btn-group">
+          <a href="#pret" class="btn-pill btn-white-pill">Vreau s&#259; schimb ceva</a>
+          <a href="#ghid" class="btn-pill btn-teal-solid"><i class="bi bi-download"></i>Descarc&#259; ghid</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<a href="#top" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- ================= 1 · PROBLEM RECOGNITION ================= -->
+<section class="sec sec-1 bg-white">
+  <div class="container text-center">
+    <p class="eyebrow">Te recuno&#537;ti &icirc;n aceste situa&#539;ii?</p>
+    <h2 class="section-title">Comportamente care te epuizeaz&#259;</h2>
+  </div>
+  <div class="container">
+    <div class="g-row g-5050 behavior-row">
+      <div class="behavior-grid">
+        <div class="behavior-cell">
+          <i class="bi bi-phone-fill behavior-icon"></i>
+          <p class="behavior-title">Dependen&#539;a de ecrane</p>
+          <p class="behavior-text">Cereri constante, crize c&acirc;nd spui &bdquo;nu&quot;</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-x-octagon-fill behavior-icon"></i>
+          <p class="behavior-title">Opozi&#539;ie &#537;i refuz</p>
+          <p class="behavior-text">&bdquo;Nu vreau!&quot;, &bdquo;Nu fac!&quot;</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-book-fill behavior-icon"></i>
+          <p class="behavior-title">Refuzul temelor</p>
+          <p class="behavior-text">Lupte zilnice pentru orice sarcin&#259;</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-emoji-tear-fill behavior-icon"></i>
+          <p class="behavior-title">Pl&acirc;ns la desp&#259;r&#539;ire</p>
+          <p class="behavior-text">Anxietate &#537;i ag&#259;&#539;are excesiv&#259;</p>
+        </div>
+        <div class="behavior-cell behavior-cell-wide">
+          <i class="bi bi-lightning-charge-fill behavior-icon"></i>
+          <p class="behavior-title">Conflicte frecvente</p>
+          <p class="behavior-text">Certuri care escaladeaz&#259; rapid</p>
+        </div>
+      </div>
+      <div>
+        <div class="dark-card"><div class="dark-card-inner">
+          <h3 class="dark-card-title">Ce au &icirc;n comun toate aceste comportamente?</h3>
+          <p class="dark-card-text"><br>Sunt men&#539;inute de un <span class="hl-orange">tipar rela&#539;ional repetitiv &icirc;ntre tine &#537;i copil</span> &ndash; un cerc &icirc;n care reac&#539;iile tale (chiar &#537;i cele &bdquo;corecte&quot;) pot &icirc;nt&#259;ri exact comportamentul pe care vrei s&#259;-l opre&#537;ti.<br><br><span class="hl-orange">Vestea bun&#259;:</span> c&acirc;nd schimbi un singur element din acest tipar, &icirc;ntreaga dinamic&#259; se transform&#259;. Aici intru eu &icirc;n scen&#259; &ndash; s&#259; te ajut s&#259; identifici exact ce men&#539;ine problema &#537;i s&#259; construim &icirc;mpreun&#259; o strategie clar&#259;, aplicabil&#259; imediat.</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2 · QUOTE BANNER ================= -->
+<section class="sec sec-2 section-gradient">
+  <div class="container">
+    <div class="g-row g-5050">
+      <div>
+        <div class="quote-box" style="--bg-photo:url(images/hero-4.png)">
+          <div class="quote-mark quote-mark-top"><i class="bi bi-quote"></i></div>
+          <h3 class="quote-box-text">Orice a&#537; &icirc;ncerca, nu func&#539;ioneaz&#259;. M&#259; simt pierdut &#537;i neputincios. Frecven&#539;a conflictelor cre&#537;te, copilul nu coopereaz&#259;, iar eu ajung s&#259; reac&#539;ionez &icirc;ntr-un mod care &icirc;mi provoac&#259; vinov&#259;&#539;ie &#537;i frustrare.</h3>
+          <div class="quote-mark quote-mark-bottom"><i class="bi bi-quote"></i></div>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="script-lg">Dac&#259; te reg&#259;se&#537;ti &icirc;n aceste cuvinte, <br>nu e&#537;ti singur/&#259;.</p>
+        <h1 class="banner-title">&#536;i exist&#259; <span class="hl-orange">o cale de ie&#537;ire</span> &ndash; una clar&#259;, structurat&#259; &#537;i aplicabil&#259; imediat.</h1>
+        <a href="#programul" class="btn-pill btn-teal-solid">Vreau s&#259; aflu mai multe</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3 · ABOUT LIANA ================= -->
+<section class="sec sec-3 bg-white" id="despre">
+  <div class="container">
+    <div class="g-row g-media">
+      <div>
+        <div class="media-frame media-frame-liana" style="--media:url(images/liana-portret.png)" role="img" aria-label="Liana, psiholog"></div>
+      </div>
+      <div class="media-copy">
+        <p class="eyebrow">Cine te ghideaz&#259;?</p>
+        <h2 class="section-title">Bun&#259;, sunt Liana!</h2>
+        <p class="body-text"><span class="hl-orange-solid">Mam&#259; &#537;i licen&#539;iat&#259; &icirc;n psihologie.</span> Am tr&#259;it &#537;i lucrat &icirc;n Rom&acirc;nia, Spania &#537;i Danemarca, &icirc;ntr-o familie interna&#539;ional&#259;, iar experien&#539;a de p&#259;rinte m-a ajutat s&#259; &icirc;n&#539;eleg <span class="hl-orange-solid">diferen&#539;a dintre teorie &#537;i realitatea de zi cu zi dintr-o cas&#259; cu copii</span>. &#536;tiu cum e s&#259; te implici &#537;i, totu&#537;i, s&#259; sim&#539;i c&#259; lucrurile nu se a&#537;az&#259;.<br><br>Sunt absolvent&#259; a Facult&#259;&#539;ii de Psihologie la Universitatea &bdquo;Babe&#537;-Bolyai&rdquo; din Cluj-Napoca, cu experien&#539;&#259; anterioar&#259; &icirc;n lucrul cu oamenii &#537;i roluri de management, &#537;i formare continu&#259; &icirc;n Compassionate Inquiry. Lucrez bazat pe <span class="hl-orange-solid">principii din psihologia cognitiv-comportamental&#259; &#537;i cercet&#259;ri recente</span>, direct pe <span class="hl-orange-solid">situa&#539;iile concrete din familia ta</span>. Cred &icirc;n rela&#539;ii &bdquo;orizontale&rdquo;, bazate pe respect, &icirc;ncredere &#537;i cooperare, &#537;i creez un spa&#539;iu cald &#537;i empatic, orientat spre ac&#539;iuni clare, care aduc mai mult echilibru &#537;i &icirc;ncredere &icirc;n rolul de p&#259;rinte.</p>
+      </div>
+    </div>
+
+    <div class="method-row">
+      <div class="accordion faq-accordion" id="methodAccordion1">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m1">Modificare cognitiv-comportamental&#259;</button>
+          </h4>
+          <div id="m1" class="accordion-collapse collapse" data-bs-parent="#methodAccordion1">
+            <div class="accordion-body">
+              <p>Tehnici concrete &#537;i observabile: analiz&#259; func&#539;ional&#259;, shaping, prompting, &icirc;nt&#259;rire diferen&#539;iat&#259;, gestionarea consecin&#539;elor.<br><br><strong>Ce aduce: Strategii aplicabile imediat, rezultate m&#259;surabile, schimbare vizibil&#259; &icirc;n comportament.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion faq-accordion" id="methodAccordion2">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m2">Interven&#539;ie strategic&#259; scurt&#259;</button>
+          </h4>
+          <div id="m2" class="accordion-collapse collapse" data-bs-parent="#methodAccordion2">
+            <div class="accordion-body">
+              <p>Logica schimb&#259;rii rapide: &icirc;ntreruperea patternurilor disfunc&#539;ionale, redefinirea problemei, calibrare precis&#259;.<br><br><strong>Ce aduce: Eficien&#539;&#259; &icirc;n timp, focus pe solu&#539;ii, evitarea rezisten&#539;ei la schimbare.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion faq-accordion" id="methodAccordion3">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m3">Compassionate Inquiry</button>
+          </h4>
+          <div id="m3" class="accordion-collapse collapse" data-bs-parent="#methodAccordion3">
+            <div class="accordion-body">
+              <p>Prezen&#539;&#259; autentic&#259;, claritate, absen&#539;a judec&#259;&#539;ii, aten&#539;ie la emo&#539;iile &#537;i sensurile din spatele reac&#539;iilor.<br><br><strong>Ce aduce: Spa&#539;iu sigur pentru schimbare, flexibilitate psihologic&#259;, &icirc;n&#539;elegere profund&#259;.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4 · WHAT'S REALLY HAPPENING ================= -->
+<section class="sec sec-4 bg-mint">
+  <div class="container text-center">
+    <p class="eyebrow">Ce se &icirc;nt&acirc;mpl&#259; cu adev&#259;rat?!</p>
+    <h2 class="section-title">Problema nu e copilul. &#536;i nici tu.</h2>
+    <p class="body-text mint-lead">Problema este tiparul de interac&#539;iune care s-a format &icirc;ntre voi &ndash; un cerc &icirc;n care reac&#539;iile tale automate &#537;i comportamentul copilului se &icirc;nt&#259;resc reciproc, l&#259;s&acirc;ndu-te epuizat/&#259;, vinovat/&#259; &#537;i cu sentimentul c&#259; &bdquo;nu e&#537;ti un p&#259;rinte bun&quot;.<br><br>Iar adev&#259;rul este: <span class="hl-orange-bold">parenting-ul nu ar trebui s&#259; fie a&#537;a de greu</span>.</p>
+
+    <div class="cycle-row">
+      <div class="cycle-cell">
+        <div class="num-circle">1</div>
+        <p class="cycle-title">Comportamentul apare</p>
+        <p class="cycle-text">Copilul refuz&#259;, pl&acirc;nge, se opune sau cere ecrane. Tu reac&#539;ionezi &icirc;ntr-un mod care &#539;i se pare normal.</p>
+      </div>
+      <div class="cycle-cell">
+        <div class="num-circle">2</div>
+        <p class="cycle-title">Reac&#539;ia &icirc;nt&#259;re&#537;te</p>
+        <p class="cycle-text">F&#259;r&#259; s&#259; &#537;tii, reac&#539;ia ta (chiar &#537;i cea &bdquo;corect&#259;&quot;) poate &icirc;nt&#259;ri comportamentul pe care vrei s&#259;-l opre&#537;ti.</p>
+      </div>
+      <div class="cycle-cell">
+        <div class="num-circle">3</div>
+        <p class="cycle-title">Tiparul se repet&#259;</p>
+        <p class="cycle-text">Acela&#537;i scenariu, acelea&#537;i conflicte. Frustrare pentru am&acirc;ndoi. &#536;i senza&#539;ia c&#259; &bdquo;nimic nu merge&quot;.</p>
+      </div>
+    </div>
+
+    <p class="cycle-outro"><span class="hl-orange-bold">Vestea bun&#259;?</span> C&acirc;nd schimbi un singur element din acest tipar, &icirc;ntreaga dinamic&#259; se transform&#259;.</p>
+    <div class="arrow-wrap"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 5 · PROGRAM ================= -->
+<section class="sec sec-5 bg-white" id="programul">
+  <div class="container text-center">
+    <p class="eyebrow">Programul</p>
+    <h2 class="section-title">Interven&#539;ie scurt&#259;, rezultate vizibile</h2>
+  </div>
+  <div class="container">
+    <div class="g-row g-media-rev program-row">
+      <div class="media-copy">
+        <p class="body-text">Nu e nevoie de luni de terapie. Lucr&#259;m &#539;intit pe situa&#539;ia ta concret&#259;, identific&#259;m ce men&#539;ine problema &#537;i construim un plan de ac&#539;iune clar.</p>
+        <h3 class="list-lead">Ce prime&#537;ti:</h3>
+        <ul class="check-list">
+          <li><span class="li-text"><strong>&#536;edin&#539;a 1 &ndash; Analiz&#259; &#537;i claritate.</strong> Identific&#259;m tiparele de interac&#539;iune, reac&#539;iile automate &#537;i ce men&#539;ine dificultatea. Pleci cu direc&#539;ii clare de schimbare.</span></li>
+          <li><span class="li-text"><strong>Prime&#537;ti planul personalizat de interven&#539;ie.</strong> Prime&#537;ti un PDF structurat cu analiza comportamentului-&#539;int&#259;, strategii de schimbare, pa&#537;i concre&#539;i &#537;i reguli de aplicare. &Icirc;ncepi implementarea &#537;i monitorizarea progresului.</span></li>
+          <li><span class="li-text"><strong>&#536;edin&#539;a 2 &ndash; Evaluare &#537;i ajustare.</strong> Analiz&#259;m rezultatele, ajust&#259;m strategia &#537;i consolid&#259;m schimbarea pentru a gestiona autonom situa&#539;ii similare.</span></li>
+        </ul>
+        <a href="#pret" class="btn-pill btn-teal-solid">Vreau s&#259; m&#259; &icirc;nscriu</a>
+      </div>
+      <div>
+        <div class="media-frame media-frame-programul" style="--media:url(images/medalion-programul.png)" role="img" aria-label="P&#259;rin&#539;i mul&#539;umi&#539;i de rezultate"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6 · SCRIPT BANNER ================= -->
+<section class="sec sec-6 section-gradient-photo" style="--bg-photo:url(images/section-bg-2.png)">
+  <div class="container text-center">
+    <p class="script-xl">C&acirc;nd p&#259;rintele &icirc;ncepe s&#259; perceap&#259; comportamentul copilului diferit, reac&#539;iile se schimb&#259;, iar rela&#539;ia se &icirc;mbun&#259;t&#259;&#539;e&#537;te.</p>
+  </div>
+</section>
+
+<!-- ================= 7 · HOW IT WORKS ================= -->
+<section class="sec sec-7 bg-mint" id="cum-functioneaza">
+  <div class="container">
+    <div class="g-row g-media">
+      <div>
+        <div class="media-frame media-frame-cumfunc" style="--media:url(images/medalion-cum-functioneaza.png)" role="img" aria-label="Familie pe trepte, simboliz&acirc;nd pa&#537;ii procesului"></div>
+      </div>
+      <div class="media-copy steps-copy">
+        <p class="eyebrow">Proces structurat</p>
+        <h2 class="section-title">Cum func&#539;ioneaz&#259;</h2>
+
+        <div class="step-row">
+          <div class="num-circle">1</div>
+          <div>
+            <p class="step-title">&Icirc;n&#539;elegem ce se &icirc;nt&acirc;mpl&#259;</p>
+            <p class="step-text">Analiz&#259;m situa&#539;iile concrete care se repet&#259;, reac&#539;iile automate &#537;i ce anume men&#539;ine dificultatea &icirc;n rela&#539;ia cu copilul t&#259;u.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">2</div>
+          <div>
+            <p class="step-title">Construim un plan personalizat</p>
+            <p class="step-text">Stabilim pa&#537;i clari &#537;i reguli de ac&#539;iune adaptate contextului t&#259;u, astfel &icirc;nc&acirc;t s&#259; &#537;tii exact cum s&#259; reac&#539;ionezi.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">3</div>
+          <div>
+            <p class="step-title">Schimbarea prinde contur</p>
+            <p class="step-text">Aplici planul &icirc;n via&#539;a de zi cu zi &#537;i &icirc;ncepi s&#259; observi diferen&#539;e reale &icirc;n interac&#539;iunile cu copilul t&#259;u.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">4</div>
+          <div>
+            <p class="step-title">Mai mult&#259; lini&#537;te &icirc;n rela&#539;ia cu copilul t&#259;u</p>
+            <p class="step-text">Ai mai mult&#259; claritate, mai pu&#539;ine conflicte &#537;i &icirc;ncredere c&#259; po&#539;i gestiona situa&#539;ii similare pe cont propriu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-wrap text-center"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 8 · PRICING / CHECKOUT ================= -->
+<section class="sec sec-8 bg-white" id="pret">
+  <div class="container text-center">
+    <p class="eyebrow">&Icirc;ncepe acum</p>
+    <h2 class="section-title">Gata s&#259; schimbi ceva?</h2>
+    <p class="body-text">Rezerv&#259;-&#539;i locul &icirc;n program &#537;i prime&#537;ti imediat accesul la formularul de intake.</p>
+  </div>
+
+  <div class="container">
+    <div class="pricing-card">
+      <div class="pricing-grid">
+        <div class="pricing-left">
+          <div class="price-badge-row"><span class="badge-tag">Program Complet</span></div>
+          <h3 class="pricing-title">Interven&#539;ie Scurt&#259; pentru P&#259;rin&#539;i</h3>
+          <ul class="price-list">
+            <li><span class="check-icon">&#10003;</span> 2 &#537;edin&#539;e individuale online (60 min)</li>
+            <li><span class="check-icon">&#10003;</span> Formular de intake detaliat</li>
+            <li><span class="check-icon">&#10003;</span> Plan personalizat de interven&#539;ie (PDF)</li>
+            <li><span class="check-icon">&#10003;</span> Analiza comportamentului &#539;int&#259;</li>
+            <li><span class="check-icon">&#10003;</span> Strategii concrete de schimbare</li>
+            <li><span class="check-icon">&#10003;</span> Ghid de implementare &#537;i monitorizare</li>
+          </ul>
+          <div class="price-block">
+            <div class="early-bird-row"><span class="badge-early-bird"><img class="emoji" alt="⚡" src="https://s.w.org/images/core/emoji/17.0.2/svg/26a1.svg" decoding="async"> Early Bird -90%</span></div>
+            <div class="price-row">
+              <span class="price-old">1000 RON</span>
+              <span class="price-new">100 RON</span>
+            </div>
+            <p class="price-note">Ofert&#259; limitat&#259; &bull; Plat&#259; unic&#259;</p>
+          </div>
+        </div>
+        <div class="pricing-right">
+          <h5 class="pricing-form-title">Completeaz&#259; datele pentru rezervare</h5>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Prenume</label>
+                <input type="text" class="form-control" placeholder="Maria" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Nume</label>
+                <input type="text" class="form-control" placeholder="Popescu" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="maria@email.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Telefon</label>
+              <input type="tel" class="form-control" placeholder="0740 123 456" required>
+            </div>
+
+            <div class="total-row">
+              <span class="total-left"><span class="total-label">Total de plat&#259;:</span><span class="discount-chip">-90%</span></span>
+              <span class="total-right">
+                <span class="price-old">1000 RON</span>
+                <span class="price-new">100 RON</span>
+              </span>
+            </div>
+
+            <div class="form-check gdpr-check">
+              <input class="form-check-input" type="checkbox" id="gdpr1" required>
+              <label class="form-check-label gdpr-label" for="gdpr1">
+                Sunt de acord cu <a href="#">Politica de confiden&#539;ialitate</a> &#537;i accept prelucrarea datelor personale conform GDPR.
+              </label>
+            </div>
+
+            <button type="submit" class="btn-pay"><span class="btn-icon"><img class="emoji" alt="💳" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4b3.svg" decoding="async"></span> Pl&#259;te&#537;te cu cardul</button>
+
+            <div class="trust-row">
+              <span><img class="emoji" alt="🔒" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f512.svg" decoding="async"> SSL Securizat</span>
+              <span><img class="emoji" alt="💳" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4b3.svg" decoding="async"> Stripe</span>
+            </div>
+            <p class="pay-note">Plat&#259; securizat&#259;. Datele tale sunt protejate.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <p class="after-form-note text-center">
+      Dup&#259; completarea formularului, te voi contacta pentru a programa prima &#537;edin&#539;&#259;.<br>
+      Dac&#259; nu putem lucra &icirc;mpreun&#259; din orice motiv, prime&#537;ti banii &icirc;napoi.
+    </p>
+  </div>
+</section>
+
+<!-- ================= 9 · EXPECTATIONS ================= -->
+<section class="sec sec-9 bg-mint" id="rezultate">
+  <div class="container text-center">
+    <p class="eyebrow">La ce s&#259; te a&#537;tep&#539;i</p>
+    <h2 class="section-title">Rezultate realiste dup&#259; program</h2>
+
+    <div class="expect-grid">
+      <div class="expect-cell">
+        <i class="bi bi-arrow-repeat expect-icon"></i>
+        <p class="expect-title">Mai pu&#539;ine conflicte</p>
+        <p class="expect-text">Tiparul se &icirc;ntrerupe, frecven&#539;a conflictelor scade vizibil</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-hand-thumbs-up-fill expect-icon"></i>
+        <p class="expect-title">Cooperare mai u&#537;oar&#259;</p>
+        <p class="expect-text">Copilul r&#259;spunde diferit c&acirc;nd tu reac&#539;ionezi diferit</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-shield-fill-check expect-icon"></i>
+        <p class="expect-title">&Icirc;ncredere &icirc;n tine</p>
+        <p class="expect-text">&#536;tii ce faci &#537;i de ce func&#539;ioneaz&#259;</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-calendar-check-fill expect-icon"></i>
+        <p class="expect-title">Control asupra rutinei</p>
+        <p class="expect-text">Temele, ecranele, culcarea devin mai gestionabile</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-tools expect-icon"></i>
+        <p class="expect-title">Instrumente clare</p>
+        <p class="expect-text">Ai un plan concret &#537;i &#537;tii cum s&#259;-l aplici</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-arrow-up-circle-fill expect-icon"></i>
+        <p class="expect-title">Autonomie pe termen lung</p>
+        <p class="expect-text">Po&#539;i gestiona singur/&#259; provoc&#259;rile viitoare</p>
+      </div>
+    </div>
+    <div class="arrow-wrap"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 10 · TIMELINE ================= -->
+<section class="sec sec-10 bg-white">
+  <div class="container text-center">
+    <p class="eyebrow">Evolu&#539;ia &icirc;n timp</p>
+    <h2 class="section-title">C&acirc;nd vei vedea rezultate?</h2>
+  </div>
+  <div class="container">
+    <div class="timeline-grid">
+      <div class="timeline-cell"><div>
+        <p class="timeline-title">S&#259;pt&#259;m&acirc;na 1</p>
+        <p class="timeline-text">Dup&#259; prima &#537;edin&#539;&#259;: Vei avea claritate asupra tiparului rela&#539;ional &#537;i vei primi primele direc&#539;ii concrete. Vei &icirc;ncepe s&#259; observi altfel interac&#539;iunile cu copilul.</p>
+      </div></div>
+      <div class="timeline-cell"><div>
+        <p class="timeline-title">S&#259;pt&#259;m&acirc;nile 2-3</p>
+        <p class="timeline-text">Prime&#537;ti planul personalizat &#537;i &icirc;ncepi implementarea strategiilor. Multe familii observ&#259; primele schimb&#259;ri vizibile &icirc;n aceast&#259; perioad&#259; &ndash; frecven&#539;a conflictelor scade, copilul coopereaz&#259; mai u&#537;or.</p>
+      </div></div>
+      <div class="timeline-cell"><div>
+        <p class="timeline-title">S&#259;pt&#259;m&acirc;na 3-4</p>
+        <p class="timeline-text">&#536;edin&#539;a de follow-up: Evalu&#259;m ce a func&#539;ionat, ajust&#259;m strategia &#537;i consolid&#259;m schimbarea. Pleci cu &icirc;ncredere &#537;i autonomie &icirc;n gestionarea provoc&#259;rilor.</p>
+      </div></div>
+      <div class="timeline-cell"><div>
+        <p class="timeline-title">Pe termen lung</p>
+        <p class="timeline-text">Continui s&#259; aplici strategiile &#537;i s&#259; gestionezi autonom situa&#539;iile noi. Ai instrumentele necesare s&#259; men&#539;ii dinamica func&#539;ional&#259; &#537;i s&#259; previi revenirea la vechile tipare.</p>
+      </div></div>
+    </div>
+
+    <p class="timeline-note text-center">
+      Viteza schimb&#259;rii depinde de specificul situa&#539;iei &#537;i de consecven&#539;a ta &icirc;n aplicare.<br>
+      Majoritatea p&#259;rin&#539;ilor v&#259;d <span class="hl-orange-solid">&icirc;mbun&#259;t&#259;&#539;iri vizibile &icirc;n primele 2-3 s&#259;pt&#259;m&acirc;ni</span>.
+    </p>
+  </div>
+</section>
+
+<!-- ================= 11 · WARNING BANNER ================= -->
+<section class="sec sec-11 section-gradient-photo text-center" style="--bg-photo:url(images/hero-4.png)">
+  <div class="container">
+    <h2 class="script-warn">&#536;i dac&#259; a&#537;tep&#539;i prea mult?</h2>
+    <p class="banner-body">Tiparele de conflict nu se rezolv&#259; singure. Se ad&acirc;ncesc. Copilul cre&#537;te.<br>Distan&#539;a dintre voi se m&#259;re&#537;te. Vinov&#259;&#539;ia devine mai grea. Iar senza&#539;ia de neputin&#539;&#259; se instaleaz&#259;.<br><br>Dar nu trebuie s&#259; fie a&#537;a. Schimbarea poate &icirc;ncepe acum!</p>
+    <a href="#pret" class="btn-pill btn-white-pill">Nu l&#259;sa conflictele s&#259; se &icirc;nr&#259;ut&#259;&#539;easc&#259;!</a>
+  </div>
+</section>
+
+<!-- ================= 12 · WHAT IT IS / IS NOT ================= -->
+<section class="sec sec-12 bg-white">
+  <div class="container text-center">
+    <p class="eyebrow">A&#537;tept&#259;ri clare</p>
+    <h2 class="section-title">Ce este &#537;i ce NU este acest program</h2>
+  </div>
+  <div class="container">
+    <div class="fit-row">
+      <div>
+        <div class="fit-head">
+          <span class="icon-circle icon-circle-teal"><i class="bi bi-check-lg"></i></span>
+          <h3 class="list-heading">Este pentru tine dac&#259;:</h3>
+        </div>
+        <ul class="check-list fit-list">
+          <li><span class="li-text">Ai un copil &icirc;ntre 4 &#537;i 12 ani cu comportamente dificile &#537;i repetitive</span></li>
+          <li><span class="li-text">Vrei solu&#539;ii practice, personalizate, cu rezultate m&#259;surabile</span></li>
+          <li><span class="li-text">Sim&#539;i c&#259; ai &icirc;ncercat multe &#537;i nimic nu func&#539;ioneaz&#259;</span></li>
+          <li><span class="li-text">E&#537;ti dispus/&#259; s&#259; reflectezi la propriile reac&#539;ii &#537;i s&#259; &icirc;ncerci lucruri noi</span></li>
+          <li><span class="li-text">Accep&#539;i c&#259; schimbarea necesit&#259; implicarea ta, nu doar &bdquo;repararea&quot; copilului</span></li>
+          <li><span class="li-text">Cau&#539;i un proces structurat, empatic, orientat spre autonomie pe termen lung</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="fit-head">
+          <span class="icon-circle icon-circle-orange"><i class="bi bi-x-lg"></i></span>
+          <h3 class="list-heading">Acest program NU este:</h3>
+        </div>
+        <ul class="x-list fit-list">
+          <li><span class="li-text">Terapie de lung&#259; durat&#259; sau diagnostic</span></li>
+          <li><span class="li-text">Sfaturi generale de parenting</span></li>
+          <li><span class="li-text">Promisiunea unui &bdquo;copil perfect&quot;</span></li>
+          <li><span class="li-text">Solu&#539;ie universal&#259; pentru toate comportamentele</span></li>
+          <li><span class="li-text">Pentru situa&#539;ii de criz&#259;, traum&#259; sau abuz</span></li>
+          <li><span class="li-text">Un &bdquo;program minune&quot; care func&#539;ioneaz&#259; f&#259;r&#259; implicare</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 13 · FAQ ================= -->
+<section class="sec sec-13 bg-mint" id="intrebari">
+  <div class="container">
+    <div class="g-row g-5050 faq-row">
+      <div>
+        <p class="eyebrow">&Icirc;ntreb&#259;ri frecvente</p>
+        <h2 class="section-title">Dac&#259; ai dubii...</h2>
+        <p class="faq-lead">E normal s&#259; fii sceptic/&#259;. Mul&#539;i p&#259;rin&#539;i vin la mine dup&#259; ce au &icirc;ncercat alte abord&#259;ri care nu au func&#539;ionat. &Icirc;n&#539;eleg ezitarea.</p>
+      </div>
+      <div>
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f1">Am &icirc;ncercat multe. De ce ar fi diferit de data asta?</button>
+            </h4>
+            <div id="f1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>Diferen&#539;a e c&#259; nu &icirc;&#539;i dau sfaturi generale. Analiz&#259;m exact ce se &icirc;nt&acirc;mpl&#259; &icirc;n situa&#539;ia ta &ndash; ce declan&#537;eaz&#259; comportamentul, ce &icirc;l men&#539;ine, cum reac&#539;ionezi tu &#537;i de ce reac&#539;ia ta (chiar dac&#259; pare corect&#259;) poate &icirc;nt&#259;ri problema. Apoi construim o strategie precis&#259;, calibrat&#259; pe copilul t&#259;u &#537;i pe dinamica familiei tale.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Copilul meu e &bdquo;diferit&quot; &ndash; cum &#537;tiu c&#259; va func&#539;iona?</button>
+            </h4>
+            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>Fiecare copil e diferit. De aceea nu folosesc re&#539;ete generice. Lucr&#259;m pe temperamentul copilului t&#259;u, pe v&acirc;rsta lui, pe contextul familiei. Principiile sunt universale (bazate pe cercetare), dar aplicarea e 100% personalizat&#259;.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">E cumva un &bdquo;program minune&quot;?</button>
+            </h4>
+            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>Nu. E un program bazat pe &#537;tiin&#539;&#259; &#537;i pe implicarea ta activ&#259;. Eu &icirc;&#539;i ofer claritate, structur&#259; &#537;i pa&#537;i concre&#539;i. Tu trebuie s&#259; aplici, s&#259; observi &#537;i s&#259; perseverezi. Schimbarea e posibil&#259;, dar necesit&#259; consecven&#539;&#259; &ndash; &#537;i eu sunt aici s&#259; te ghidez &icirc;n procesul acesta.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Sunt eu problema? Trebuie s&#259; &bdquo;m&#259; repar&quot; pe mine?</button>
+            </h4>
+            <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>Nu e vorba de &bdquo;vin&#259;&quot;. E vorba de a &icirc;n&#539;elege cum func&#539;ioneaz&#259; dinamica dintre tine &#537;i copil. Uneori, o mic&#259; ajustare &icirc;n modul &icirc;n care r&#259;spunzi poate avea un efect mare. Nu te voi judeca. Voi fi al&#259;turi de tine cu empatie &#537;i cu pa&#537;i clari.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">C&acirc;t dureaz&#259; p&acirc;n&#259; v&#259;d rezultate?</button>
+            </h4>
+            <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>Multe familii observ&#259; schimb&#259;ri &icirc;n primele 1-2 s&#259;pt&#259;m&acirc;ni de aplicare. Dar depinde de consecven&#539;&#259; &#537;i de specificul situa&#539;iei. Programul e scurt tocmai pentru c&#259; lucr&#259;m &#539;intit &ndash; nu pierdem timp cu teorie, mergem direct la ac&#539;iune.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6">Ce se &icirc;nt&acirc;mpl&#259; dup&#259; cele 2 &#537;edin&#539;e?</button>
+            </h4>
+            <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body"><p>R&#259;m&acirc;i cu planul personalizat &#537;i cu abilit&#259;&#539;ile de a identifica &#537;i gestiona tiparele disfunc&#539;ionale. Scopul e s&#259; devii autonom/&#259;. Dac&#259; sim&#539;i nevoia de suport suplimentar, putem discuta op&#539;iuni &ndash; dar obiectivul principal e s&#259; nu mai ai nevoie de mine.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 14 · FREE RESOURCE ================= -->
+<section class="sec sec-14 bg-white" id="ghid">
+  <div class="container">
+    <div class="resource-inner">
+      <div class="resource-grid">
+        <div class="resource-left">
+          <p class="eyebrow">Grid gratuit</p>
+          <h1 class="resource-title">5 gre&#537;eli care &icirc;nt&#259;resc comportamentul dificil al copilului</h1>
+          <p class="resource-lead">Descoper&#259; reac&#539;iile automate pe care le ai (f&#259;r&#259; s&#259;-&#539;i dai seama) &#537;i care men&#539;in tiparul de conflict, &#537;i ce s&#259; faci &icirc;n schimb.</p>
+          <ul class="check-list guide-list">
+            <li><span class="li-text">Tiparele invizibile care alimenteaz&#259; conflictele</span></li>
+            <li><span class="li-text">Gre&#537;eala cu recompensele &#537;i pedepsele</span></li>
+            <li><span class="li-text">Cum s&#259; &icirc;ntrerupi cercul vicios</span></li>
+          </ul>
+          <form class="guide-form">
+            <div><input type="text" class="form-control" name="name" placeholder="Prenume"></div>
+            <div><input type="email" class="form-control" name="email" placeholder="Email"></div>
+            <div><button type="submit" class="btn-guide">Vreau ghidul</button></div>
+          </form>
+          <div class="form-check guide-check">
+            <input class="form-check-input" type="checkbox" id="gdpr2">
+            <label class="form-check-label guide-gdpr" for="gdpr2">Sunt de acord cu <a href="#" target="_blank">Politica de confiden&#539;ialitate</a> &#537;i accept prelucrarea datelor personale conform GDPR.</label>
+          </div>
+          <p class="text-fine"><i class="bi bi-shield-check"></i>Nu fac spam. Po&#539;i s&#259; te dezabonezi oric&acirc;nd.</p>
+        </div>
+        <div class="resource-right">
+          <img src="images/guide-cover.png" alt="Coperta ghidului: 5 gre&#537;eli care &icirc;nt&#259;resc comportamentul dificil al copilului" class="guide-cover" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 15 · CLOSING ================= -->
+<section class="sec sec-15 section-mint-photo text-center" style="--bg-photo:url(images/hero-bg-texture.png)">
+  <div class="container">
+    <p class="closing-text">Schimbarea nu vine din a &icirc;ncerca mai mult din acela&#537;i lucru. <br>Vine din a face altfel &ndash; strategic, informat &#537;i cu suport.</p>
+    <p class="script-closing">Sunt aici c&acirc;nd e&#537;ti preg&#259;tit/&#259;.</p>
+    <p class="script-sign">- Liana</p>
+  </div>
+</section>
+
+<!-- the live page ends with an empty 2px section -->
+<section class="sec-tail"></section>
+
+<!-- ================= FOOTER (identic pe ambele pagini) ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="logo footer-logo">Aha<span>bility</span></p>
+        <p class="footer-tagline">Psihologie clinică pentru părinți și pentru adulți. Online, în limba română.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Programe</p>
+        <ul class="footer-list">
+          <li><a href="index.html">Program de parenting</a></li>
+          <li><a href="sedinte-individuale.html">Ședințe individuale</a></li>
+          <li><a href="sedinte-individuale.html#jurnal">Jurnalul reacțiilor</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Informații</p>
+        <ul class="footer-list">
+          <li><a href="#">Politica de confidențialitate</a></li>
+          <li><a href="#">Termeni și condiții</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p class="footer-legal">Liana [NUME], psiholog clinician, treapta practicant, regim de supervizare. Atestat de liberă practică eliberat de Colegiul Psihologilor din România, cod [DE COMPLETAT].</p>
+      <p class="footer-legal">Ședințele se desfășoară exclusiv online. Nu ofer servicii de urgență. Dacă ești în criză, sună la 112.</p>
+      <p class="footer-copy">&copy; 2026 Ahability. Toate drepturile rezervate.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+/* the live menu closes itself when you pick a link */
+document.querySelectorAll("#mainNav .nav-link").forEach(function (link) {
+  link.addEventListener("click", function () {
+    var panel = document.getElementById("mainNav");
+    var toggler = document.querySelector(".navbar-toggler");
+    if (!panel || !toggler || toggler.offsetParent === null) return;
+    if (panel.classList.contains("show")) bootstrap.Collapse.getOrCreateInstance(panel).hide();
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahability &ndash; Ședințe individuale online</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style-individual.css">
+</head>
+<body id="top">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg site-navbar sticky-top">
+  <div class="container">
+    <span class="navbar-brand logo">Aha<span>bility</span></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Meniu">
+      <span class="toggler-box"><i class="bi bi-list"></i><i class="bi bi-x-lg"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#despre">Despre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#prima-sedinta">Prima ședință</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cum-functioneaza">Cum funcționează</a></li>
+        <li class="nav-item"><a class="nav-link" href="#confidentialitate">Confidențialitate</a></li>
+        <li class="nav-item"><a class="nav-link" href="#intrebari">Întrebări</a></li>
+        <li class="nav-item"><a class="nav-link" href="#jurnal">Jurnal</a></li>
+        <li class="nav-item nav-item-cta"><a class="nav-link" href="#programare">Programează</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= 0 · HERO ================= -->
+<header class="sec sec-0 section-gradient-photo" id="hero" style="--bg-photo:url(images/hero-bg-texture.png)">
+  <div class="container">
+    <div class="g-row g-hero">
+      <div class="hero-img-col">
+        <div class="frame-wrap">
+          <img src="images/ph-hero-individual.jpg" alt="Imagine de așteptare, de înlocuit" class="frame-image" loading="lazy">
+        </div>
+      </div>
+      <div class="hero-text-col">
+        <p class="eyebrow eyebrow-light">Ședințe individuale online, pentru adulți</p>
+        <h1 class="hero-title">Lucrăm cu reacțiile care te epuizează, fără să te lupți cu tine.</h1>
+        <div class="hero-img-inline">
+          <div class="frame-wrap">
+            <img src="images/ph-hero-individual.jpg" alt="" class="frame-image" loading="lazy">
+          </div>
+        </div>
+        <p class="hero-lead">Lucrăm pe un tipar concret, cu un obiectiv stabilit de la început. Proces scurt, online, pentru adulți care vor să înțeleagă ce se tot repetă.</p>
+        <div class="hero-btn-group">
+          <a href="#programare" class="btn-pill btn-white-pill">Vreau să vorbim</a>
+          <a href="#jurnal" class="btn-pill btn-teal-solid"><i class="bi bi-download"></i>Descarcă jurnalul</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<a href="#top" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- ================= 1 · RECOGNITION GRID ================= -->
+<section class="sec sec-1 bg-white">
+  <div class="container text-center">
+    <p class="eyebrow">Te recunoști în situațiile astea?</p>
+    <h2 class="section-title">Lucruri care se repetă, deși știi că nu te ajută</h2>
+  </div>
+  <div class="container">
+    <div class="g-row g-5050 behavior-row">
+      <div class="behavior-grid">
+        <div class="behavior-cell">
+          <i class="bi bi-arrow-repeat behavior-icon"></i>
+          <p class="behavior-title">Mintea nu se oprește</p>
+          <p class="behavior-text">Te aștepți la ce poate ieși prost, chiar și când e liniște</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-chat-quote-fill behavior-icon"></i>
+          <p class="behavior-title">Vocea care nu te iartă</p>
+          <p class="behavior-text">Ceilalți greșesc și e în regulă. Tu, nu</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-lightning-charge-fill behavior-icon"></i>
+          <p class="behavior-title">Reacții pe care nu le alegi</p>
+          <p class="behavior-text">Explodezi sau te blochezi, apoi îți pare rău</p>
+        </div>
+        <div class="behavior-cell">
+          <i class="bi bi-emoji-tear-fill behavior-icon"></i>
+          <p class="behavior-title">Tensiune care nu se descarcă</p>
+          <p class="behavior-text">Umerii, stomacul, somnul. Corpul o simte primul</p>
+        </div>
+        <div class="behavior-cell behavior-cell-wide">
+          <i class="bi bi-people-fill behavior-icon"></i>
+          <p class="behavior-title">Ca părinte, te pierzi pe tine</p>
+          <p class="behavior-text">Ai răbdare cu copilul, apoi nu mai ai cu nimeni</p>
+        </div>
+      </div>
+      <div>
+        <div class="dark-card"><div class="dark-card-inner">
+          <h3 class="dark-card-title">Ce au în comun toate astea?</h3>
+          <p class="dark-card-text"><br>Niciuna nu a apărut din senin. Fiecare a fost, cândva, <span class="hl-orange">un răspuns care a funcționat</span>. Te-a protejat, te-a ținut în siguranță într-un context în care aveai nevoie de asta.<br><br>Apoi contextul s-a schimbat. Reacția a rămas.<br><br>De asta „știu ce ar trebui să fac" nu ajunge. <span class="hl-orange">Un tipar nu se oprește pentru că îl înțelegi.</span> Se oprește când vezi ce rost a avut și ce altceva ai putea pune în locul lui. Aici lucrăm împreună.</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2 · QUOTE BANNER ================= -->
+<section class="sec sec-2 section-gradient">
+  <div class="container">
+    <div class="g-row g-5050">
+      <div>
+        <div class="quote-box" style="--bg-photo:url(images/hero-4.png)">
+          <div class="quote-mark quote-mark-top"><i class="bi bi-quote"></i></div>
+          <h3 class="quote-box-text">Știu ce ar trebui să fac. Tot nu fac. Și pe urmă îmi reproșez asta zile întregi, până ajung să cred că problema sunt eu.</h3>
+          <div class="quote-mark quote-mark-bottom"><i class="bi bi-quote"></i></div>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="script-lg">Dacă te regăsești în cuvintele astea, <br>nu e nimic în neregulă cu tine.</p>
+        <h1 class="banner-title">E doar ceva ce ai <span class="hl-orange">învățat</span>. Și ce se învață, se poate schimba.</h1>
+        <a href="#cum-functioneaza" class="btn-pill btn-teal-solid">Vreau să aflu cum lucrăm</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3 · ABOUT LIANA ================= -->
+<section class="sec sec-3 bg-white" id="despre">
+  <div class="container">
+    <div class="g-row g-media">
+      <div>
+        <div class="media-frame media-frame-liana" style="--media:url(images/liana-portret.png)" role="img" aria-label="Liana, psiholog clinician"></div>
+      </div>
+      <div class="media-copy">
+        <p class="eyebrow">Cine te însoțește</p>
+        <h2 class="section-title">Bună, sunt Liana!</h2>
+        <p class="body-text"><span class="hl-orange-solid">Sunt psiholog clinician și mamă.</span> Am trăit și lucrat în România, Spania și Danemarca. Înainte de psihologie am lucrat ani buni cu oameni, în roluri de management, așa că știu cum arată presiunea de zi cu zi.<br><br>Am terminat Facultatea de Psihologie la Universitatea „Babeș-Bolyai" din Cluj-Napoca. Acum fac masteratul de <span class="hl-orange-solid">Psihologie clinică și intervenție psihologică</span> la Universitatea „Spiru Haret" și o formare de lungă durată în psihoterapie cognitivă, acreditată de Colegiul Psihologilor din România. Am parcurs și programul Compassionate Inquiry, dezvoltat de dr. Gabor Maté.<br><br>Lucrez cu atestat de liberă practică în psihologie clinică, treapta practicant, în regim de supervizare. Cod personal: [DE COMPLETAT].<br><br>Cred că orice comportament, chiar și cel care acum doare, a avut cândva un sens. <span class="hl-orange-solid">Nu vin să repar pe cineva.</span> Vin să înțeleg, împreună cu tine, ce s-a format și de ce.</p>
+      </div>
+    </div>
+
+    <div class="method-row">
+      <div class="accordion faq-accordion" id="methodAccordion1">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m1">Analiză funcțională</button>
+          </h4>
+          <div id="m1" class="accordion-collapse collapse" data-bs-parent="#methodAccordion1">
+            <div class="accordion-body">
+              <p>Ne uităm concret la ce declanșează reacția, ce o menține și ce obții din ea fără să-ți dai seama.<br><br><strong>Ce aduce: claritate pe un tipar care până acum părea fără logică.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion faq-accordion" id="methodAccordion2">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m2">Intervenție scurtă și focalizată</button>
+          </h4>
+          <div id="m2" class="accordion-collapse collapse" data-bs-parent="#methodAccordion2">
+            <div class="accordion-body">
+              <p>Stabilim un obiectiv de la început și lucrăm pe el. Ne oprim când l-am atins, nu când se termină un pachet.<br><br><strong>Ce aduce: știi de la început unde mergem și cam cât durează.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion faq-accordion" id="methodAccordion3">
+        <div class="accordion-item">
+          <h4 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#m3">Compassionate Inquiry</button>
+          </h4>
+          <div id="m3" class="accordion-collapse collapse" data-bs-parent="#methodAccordion3">
+            <div class="accordion-body">
+              <p>Atenție la emoția din spatele reacției, fără grabă și fără judecată. Iau din metodă felul de a asculta, nu explorarea de lungă durată a trecutului.<br><br><strong>Ce aduce: te simți ascultat fără să fii împins mai departe decât ești pregătit.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4 · MECHANISM ================= -->
+<section class="sec sec-4 bg-mint">
+  <div class="container text-center">
+    <p class="eyebrow">Ce se întâmplă de fapt</p>
+    <h2 class="section-title">Nu e că nu te străduiești destul.</h2>
+    <p class="body-text mint-lead">Te străduiești de ani de zile. Un tipar care s-a format ca să te ajute nu dispare doar pentru că nu-l mai vrei.<br><br>Uite <span class="hl-orange-bold">cum se închide cercul</span>.</p>
+
+    <div class="cycle-row">
+      <div class="cycle-cell">
+        <div class="num-circle">1</div>
+        <p class="cycle-title">Apare într-un context</p>
+        <p class="cycle-text">Ceva a cerut de la tine un anumit răspuns. Să taci. Să le iei pe toate. Atunci a fost răspunsul corect.</p>
+      </div>
+      <div class="cycle-cell">
+        <div class="num-circle">2</div>
+        <p class="cycle-title">Se automatizează</p>
+        <p class="cycle-text">Se repetă des și nu mai treci prin nicio decizie. Nu alegi să reacționezi așa. Pur și simplu reacționezi.</p>
+      </div>
+      <div class="cycle-cell">
+        <div class="num-circle">3</div>
+        <p class="cycle-title">Contextul se schimbă, tiparul nu</p>
+        <p class="cycle-text">Nu mai ești în situația aceea, dar răspunsul a rămas. Acum te costă în relații, în somn, în felul în care îți vorbești.</p>
+      </div>
+    </div>
+
+    <p class="cycle-outro"><span class="hl-orange-bold">Și atunci?</span> Nu ai nevoie de mai multă voință. Ai nevoie să vezi mecanismul din afară.</p>
+    <div class="arrow-wrap text-center"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 5 · FIRST SESSION ================= -->
+<section class="sec sec-5 bg-white" id="prima-sedinta">
+  <div class="container text-center">
+    <p class="eyebrow">Ce te așteaptă</p>
+    <h2 class="section-title">Prima ședință, în mare</h2>
+  </div>
+  <div class="container">
+    <div class="g-row g-media-rev program-row">
+      <div class="media-copy">
+        <p class="body-text">Nu trebuie să vii pregătit, să știi să-ți explici problema sau să demonstrezi ceva.</p>
+        <p class="body-text">Primele zece minute sunt despre a ne cunoaște. Îți spun cum lucrez, cât durează o ședință și ce limite are confidențialitatea. Îți spun și că lucrez în regim de supervizare, ca să afli asta de la început.</p>
+        <p class="body-text">Apoi te întreb <span class="hl-orange-solid">ce te-a făcut să cauți sprijin tocmai acum</span>. De acolo povestești în ritmul tău. Dacă ceva doare prea tare ca să vorbim despre el azi, nu intrăm acolo azi.</p>
+        <p class="body-text">La final mi-aș dori să pleci cu puțin mai multă claritate și cu un prim pas asupra căruia am căzut de acord. Tot atunci vorbim deschis dacă eu sunt persoana potrivită.</p>
+        <a href="#programare" class="btn-pill btn-teal-solid">Vreau să vorbim</a>
+      </div>
+      <div>
+        <div class="media-frame media-frame-programul" style="--media:url(images/ph-prima-sedinta.jpg)" role="img" aria-label="Imagine de așteptare, de înlocuit"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6 · SCRIPT BANNER ================= -->
+<section class="sec sec-6 section-gradient-photo" style="--bg-photo:url(images/section-bg-2.png)">
+  <div class="container text-center">
+    <p class="script-xl">Când vezi de unde vine o reacție, nu mai ești în ea. De acolo începe să se miște ceva.</p>
+  </div>
+</section>
+
+<!-- ================= 7 · HOW IT WORKS ================= -->
+<section class="sec sec-7 bg-mint" id="cum-functioneaza">
+  <div class="container">
+    <div class="g-row g-media">
+      <div>
+        <div class="media-frame media-frame-cumfunc" style="--media:url(images/ph-cum-functioneaza.jpg)" role="img" aria-label="Imagine de așteptare, de înlocuit"></div>
+      </div>
+      <div class="media-copy steps-copy">
+        <p class="eyebrow">Un proces cu început și cu final</p>
+        <h2 class="section-title">Cum funcționează</h2>
+
+        <div class="step-row">
+          <div class="num-circle">1</div>
+          <div>
+            <p class="step-title">Stabilim un obiectiv</p>
+            <p class="step-text">Punem în cuvinte ce vrei să fie altfel. Concret, nu „să-mi fie mai bine". Îl ajustăm pe parcurs dacă e nevoie.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">2</div>
+          <div>
+            <p class="step-title">Ne vedem săptămânal</p>
+            <p class="step-text">O ședință de 50 de minute, online, de regulă o dată pe săptămână, cât să nu se piardă firul.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">3</div>
+          <div>
+            <p class="step-title">Observi între ședințe</p>
+            <p class="step-text">Îți propun ceva mic de urmărit: când apare o emoție, ce gând vine înainte. Observația se face în viața ta, nu pe hârtie.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">4</div>
+          <div>
+            <p class="step-title">Verificăm dacă ne potrivim</p>
+            <p class="step-text">După 2 sau 3 ședințe ne uităm sincer dacă te ajută. Dacă nu, îți spun și căutăm împreună altceva.</p>
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="num-circle">5</div>
+          <div>
+            <p class="step-title">Închidem când are sens</p>
+            <p class="step-text">De obicei până la 8 sau 10 ședințe. Scopul e să pleci putând să te descurci singur, nu să rămâi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-wrap text-center"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 8 · BOOKING AND PRICE ================= -->
+<section class="sec sec-8 bg-white" id="programare">
+  <div class="container text-center">
+    <p class="eyebrow">Primul pas</p>
+    <h2 class="section-title">Începem cu o discuție, nu cu o ședință</h2>
+    <p class="body-text booking-lead">Vorbim 20 de minute, gratuit. Îmi spui pe scurt ce te aduce, îți spun cum lucrez și vedem amândoi dacă are sens să continuăm.</p>
+  </div>
+
+  <div class="container">
+    <div class="pricing-card booking-card">
+      <div class="booking-grid">
+        <div class="pricing-left">
+          <div class="price-badge-row"><span class="badge-tag">Ședință individuală online</span></div>
+          <h3 class="pricing-title">Cum arată o ședință</h3>
+          <ul class="price-list">
+            <li><span class="check-icon">&#10003;</span> 50 de minute</li>
+            <li><span class="check-icon">&#10003;</span> De regulă o dată pe săptămână</li>
+            <li><span class="check-icon">&#10003;</span> Online, pe [PLATFORMĂ]</li>
+            <li><span class="check-icon">&#10003;</span> Adulți, individual</li>
+            <li><span class="check-icon">&#10003;</span> Plata se face după fiecare ședință</li>
+          </ul>
+          <div class="price-block">
+            <div class="price-row">
+              <span class="price-new">150 lei</span>
+              <span class="price-unit">/ ședință</span>
+            </div>
+            <p class="price-note">Anulările se anunță cu cel puțin 24 de ore înainte. Sub 24 de ore, ședința se consideră efectuată.</p>
+          </div>
+        </div>
+        <div class="pricing-right booking-right">
+          <h5 class="pricing-form-title">Discuție introductivă, 20 de minute</h5>
+          <p class="booking-note">Alegi un interval care ți se potrivește. Fără plată și fără obligație după.</p>
+          <a href="[LINK CALENDAR]" class="btn-pill btn-teal-solid btn-booking">Alege un interval</a>
+          <p class="booking-gdpr">Sunt de acord cu <a href="#" target="_blank">Politica de confidențialitate</a> și accept prelucrarea datelor personale conform GDPR.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 9 · WHAT WE WORK ON ================= -->
+<section class="sec sec-9 bg-mint" id="teme">
+  <div class="container text-center">
+    <p class="eyebrow">Pe ce ne concentrăm</p>
+    <h2 class="section-title">La ce lucrăm împreună</h2>
+
+    <div class="expect-grid">
+      <div class="expect-cell">
+        <i class="bi bi-battery-half expect-icon"></i>
+        <p class="expect-title">Stres și oboseală</p>
+        <p class="expect-text">Ce le întreține și unde ai loc de mișcare</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-arrow-repeat expect-icon"></i>
+        <p class="expect-title">Anxietate și îngrijorare</p>
+        <p class="expect-text">Cum se construiește și ce rol are</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-chat-quote-fill expect-icon"></i>
+        <p class="expect-title">Autocritică</p>
+        <p class="expect-text">De unde vine vocea aceea și pe cine imită</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-sliders expect-icon"></i>
+        <p class="expect-title">Reglare emoțională</p>
+        <p class="expect-text">Ce se întâmplă înainte de reacție</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-heart-fill expect-icon"></i>
+        <p class="expect-title">Emoțiile tale ca părinte</p>
+        <p class="expect-text">Vinovăția, rușinea, epuizarea</p>
+      </div>
+      <div class="expect-cell">
+        <i class="bi bi-people-fill expect-icon"></i>
+        <p class="expect-title">Adaptarea la rolul de părinte</p>
+        <p class="expect-text">Ce ai pierdut și ce ai câștigat</p>
+      </div>
+    </div>
+
+    <p class="cycle-outro">Ritmul diferă de la om la om. Nu promit un rezultat sau un termen, dar promit că <span class="hl-orange-bold">lucrăm pe un obiectiv clar</span> și că îți spun când cred că nu te mai ajut.</p>
+    <div class="arrow-wrap text-center"><span class="down-arrow-circle"><i class="bi bi-arrow-down"></i></span></div>
+  </div>
+</section>
+
+<!-- ================= 10 · CONFIDENTIALITY ================= -->
+<section class="sec sec-10 bg-white" id="confidentialitate">
+  <div class="container text-center">
+    <p class="eyebrow">Ce se întâmplă cu ce îmi spui</p>
+    <h2 class="section-title">Confidențialitate, pe scurt</h2>
+  </div>
+  <div class="container">
+    <div class="prose-block">
+      <p class="body-text">Tot ce discutăm rămâne între noi. Nu povestesc nimănui și nu confirm nimănui că ești clientul meu.</p>
+      <p class="body-text">Legea și codul deontologic prevăd trei excepții: <span class="hl-orange-solid">risc real pentru viața ta</span>, risc pentru altcineva, sau o solicitare a unei instanțe. Ți le spun din prima ședință, ca să nu apară ca surpriză.</p>
+      <p class="body-text">Ședințele sunt online, deci există și o limită tehnică: nicio conexiune nu e sigură sută la sută. Folosesc o platformă cu conexiune criptată, nu înregistrez ședințele și te rog să alegi un loc unde nu te aude nimeni.</p>
+      <div class="note-card">
+        <h3 class="note-title">Despre supervizare</h3>
+        <p class="note-text">Discut cazurile cu un psiholog cu experiență mai mare, care îmi coordonează activitatea. E o obligație profesională pentru treapta la care mă aflu. În discuțiile de supervizare nu apar numele tău și nici detaliile care te-ar putea identifica.</p>
+      </div>
+      <p class="body-text">Poți să te oprești oricând, fără să-mi dai o explicație. Datele tale personale sunt prelucrate conform GDPR. Nu le folosesc pentru altceva și nu le dau nimănui.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 11 · REFERRAL ================= -->
+<section class="sec sec-11 section-gradient-photo text-center" id="limite" style="--bg-photo:url(images/section-bg-2.png)">
+  <div class="container">
+    <h2 class="script-warn">Dacă ai nevoie de mai mult, îți spun</h2>
+    <p class="banner-body">Atestatul meu acoperă intervenții scurte, pe un obiectiv clar. Nu acoperă psihoterapie de lungă durată și nici tratament psihiatric.<br><br>Sunt situații în care ai nevoie de altceva. Atunci îți spun deschis ce văd și te îndrum către un profesionist acreditat.</p>
+    <a href="#programare" class="btn-pill btn-white-pill">Hai să vedem de ce ai nevoie</a>
+  </div>
+</section>
+
+<!-- ================= 12 · IS / IS NOT FOR YOU ================= -->
+<section class="sec sec-12 bg-white" id="pentru-cine">
+  <div class="container text-center">
+    <p class="eyebrow">Așteptări clare</p>
+    <h2 class="section-title">Pentru cine sunt aceste ședințe</h2>
+  </div>
+  <div class="container">
+    <div class="fit-row">
+      <div>
+        <div class="fit-head">
+          <span class="icon-circle icon-circle-teal"><i class="bi bi-check-lg"></i></span>
+          <h3 class="list-heading">E pentru tine dacă:</h3>
+        </div>
+        <ul class="check-list fit-list">
+          <li><span class="li-text">Ești adult și vrei să lucrezi individual</span></li>
+          <li><span class="li-text">Te confrunți cu stres, anxietate sau reacții pe care simți că nu le controlezi</span></li>
+          <li><span class="li-text">Ești părinte și vrei să lucrezi cu ce se întâmplă în tine, nu cu copilul</span></li>
+          <li><span class="li-text">Vrei un proces scurt, cu un obiectiv clar</span></li>
+          <li><span class="li-text">Ești dispus să te uiți la propriile tipare, chiar și când e inconfortabil</span></li>
+          <li><span class="li-text">Îți convine ritmul online, o dată pe săptămână</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="fit-head">
+          <span class="icon-circle icon-circle-orange"><i class="bi bi-x-lg"></i></span>
+          <h3 class="list-heading">Nu e pentru tine dacă:</h3>
+        </div>
+        <ul class="x-list fit-list">
+          <li><span class="li-text">Ai sub 18 ani</span></li>
+          <li><span class="li-text">Cauți ședințe de cuplu sau de familie</span></li>
+          <li><span class="li-text">Ești într-o situație de urgență sau de criză</span></li>
+          <li><span class="li-text">Ai gânduri de a-ți face rău</span></li>
+          <li><span class="li-text">Ai nevoie de evaluare sau tratament psihiatric</span></li>
+          <li><span class="li-text">Cauți un diagnostic oficial sau un act medical</span></li>
+          <li><span class="li-text">Vrei psihoterapie de lungă durată</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 13 · FAQ ================= -->
+<section class="sec sec-13 bg-mint" id="intrebari">
+  <div class="container">
+    <div class="g-row g-5050 faq-row">
+      <div>
+        <p class="eyebrow">Întrebări frecvente</p>
+        <h2 class="section-title">Dacă ai dubii...</h2>
+        <p class="faq-lead">E normal să eziți. Aproape toți oamenii ezită înainte de prima ședință. Uite ce mă întreabă cel mai des.</p>
+      </div>
+      <div>
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f1">Nu cred că problema mea e destul de gravă.</button>
+            </h4>
+            <div id="f1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Nu există un prag de la care „se pune". Dacă ceva se repetă și te costă, e destul. Oamenii amână ani de zile așteptând să fie destul de rău. Nu e nevoie să aștepți atât.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Ești psiholog, nu psihoterapeut. Ce diferență face?</button>
+            </h4>
+            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Una reală, și e corect să o știi. Atestatul meu îmi permite evaluare psihologică și intervenție scurtă, pe un obiectiv clar, de regulă până la 8 sau 10 ședințe. Psihoterapia de lungă durată cere alt atestat. Sunt în formare pentru asta, dar nu o practic acum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">Trebuie să vorbesc despre copilărie?</button>
+            </h4>
+            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Doar dacă vrei și doar când ești pregătit. Nu intru în experiențe dureroase pentru că „așa se face". Uneori trecutul explică ceva util, alteori lucrăm doar cu ce se întâmplă acum. Tu conduci ritmul.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Cât durează tot procesul?</button>
+            </h4>
+            <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>De obicei până la 8 sau 10 ședințe, o dată pe săptămână. Stabilim obiectivul de la început și îl reevaluăm pe parcurs. Nu vând pachete pe care trebuie să le termini.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">Ce se întâmplă dacă nu ne potrivim?</button>
+            </h4>
+            <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Ne uităm la asta după 2 sau 3 ședințe, deschis. Dacă nu funcționează între noi, nu e vina nimănui. Potrivirea contează mai mult decât metoda, iar eu prefer să-ți spun asta decât să continuăm din politețe.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6">Funcționează online la fel de bine?</button>
+            </h4>
+            <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Da, pentru genul ăsta de lucru. Ai nevoie de 50 de minute într-un loc unde nu te aude și nu te întrerupe nimeni. Partea asta e mai grea decât pare, mai ales dacă ești părinte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f7">Vin la prima ședință și nu știu ce să spun.</button>
+            </h4>
+            <div id="f7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Se întâmplă des. Nu trebuie să vii cu o poveste pregătită. Întreb eu, tu răspunzi cât poți, iar tăcerile sunt în regulă.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 14 · FREE RESOURCE ================= -->
+<section class="sec sec-14 bg-white" id="jurnal">
+  <div class="container">
+    <div class="resource-inner">
+      <div class="resource-grid">
+        <div class="resource-left">
+          <p class="eyebrow">Jurnal gratuit</p>
+          <h1 class="resource-title">7 zile în care doar observi. Nu schimbi nimic.</h1>
+          <p class="resource-lead">O pagină pe zi. Notezi ce s-a întâmplat înainte de reacție, nu reacția. La final de săptămână vezi tiparul cu ochii tăi.</p>
+          <ul class="check-list guide-list">
+            <li><span class="li-text">Ce să notezi, concret, în fiecare zi</span></li>
+            <li><span class="li-text">Momentele în care tiparul se vede cel mai clar</span></li>
+            <li><span class="li-text">Ce faci cu ce ai observat, după șapte zile</span></li>
+          </ul>
+          <form class="guide-form">
+            <div><input type="text" class="form-control" name="name" placeholder="Prenume"></div>
+            <div><input type="email" class="form-control" name="email" placeholder="Email"></div>
+            <div><button type="submit" class="btn-guide">Vreau jurnalul</button></div>
+          </form>
+          <div class="form-check guide-check">
+            <input class="form-check-input" type="checkbox" id="gdpr2">
+            <label class="form-check-label guide-gdpr" for="gdpr2">Sunt de acord cu <a href="#" target="_blank">Politica de confidențialitate</a> și accept prelucrarea datelor personale conform GDPR.</label>
+          </div>
+          <p class="text-fine"><i class="bi bi-shield-check"></i>Nu fac spam. Poți să te dezabonezi oricând.</p>
+        </div>
+        <div class="resource-right">
+          <img src="images/ph-jurnal-cover.jpg" alt="Coperta jurnalului, imagine de așteptare" class="guide-cover" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 15 · CLOSING ================= -->
+<section class="sec sec-15 section-mint-photo text-center" style="--bg-photo:url(images/hero-bg-texture.png)">
+  <div class="container">
+    <p class="closing-text">Nu ești un om care trebuie reparat. <br>Ești un om care a învățat ceva ce l-a ajutat cândva.</p>
+    <p class="script-closing">Sunt aici când ești pregătit.</p>
+    <p class="script-sign">- Liana</p>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="logo footer-logo">Aha<span>bility</span></p>
+        <p class="footer-tagline">Psihologie clinică pentru părinți și pentru adulți. Online, în limba română.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Programe</p>
+        <ul class="footer-list">
+          <li><a href="index.html">Program de parenting</a></li>
+          <li><a href="sedinte-individuale.html">Ședințe individuale</a></li>
+          <li><a href="sedinte-individuale.html#jurnal">Jurnalul reacțiilor</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Informații</p>
+        <ul class="footer-list">
+          <li><a href="#">Politica de confidențialitate</a></li>
+          <li><a href="#">Termeni și condiții</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p class="footer-legal">Liana [NUME], psiholog clinician, treapta practicant, regim de supervizare. Atestat de liberă practică eliberat de Colegiul Psihologilor din România, cod [DE COMPLETAT].</p>
+      <p class="footer-legal">Ședințele se desfășoară exclusiv online. Nu ofer servicii de urgență. Dacă ești în criză, sună la 112.</p>
+      <p class="footer-copy">&copy; 2026 Ahability. Toate drepturile rezervate.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+/* the menu closes itself when you pick a link */
+document.querySelectorAll("#mainNav .nav-link").forEach(function (link) {
+  link.addEventListener("click", function () {
+    var panel = document.getElementById("mainNav");
+    var toggler = document.querySelector(".navbar-toggler");
+    if (!panel || !toggler || toggler.offsetParent === null) return;
+    if (panel.classList.contains("show")) bootstrap.Collapse.getOrCreateInstance(panel).hide();
+  });
+});
+</script>
+</body>
+</html>
